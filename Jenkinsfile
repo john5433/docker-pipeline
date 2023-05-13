@@ -21,7 +21,7 @@ pipeline  {
                   echo ‘All containers stopped’
                   sudo docker run -d -p 80:80 webserver:latest
                   sudo docker ps -a
-                 echo ‘List of all containers with their current status’
+                  echo ‘List of all containers with their current status’
                   '''
                        }
                  }
